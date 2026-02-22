@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+
+# Production build artifacts
+/build
+/dist
+/out
+/coverage
+
+# Logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.rpt2_cache/
+.eslintcache
+.vitepress/cache
+.parcel-cache
+.next
+.nuxt
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and OS files
+.DS_Store
+.idea
+.vscode
+*.suo
+*.ntvsps
+*.njsproj
+*.lsr
+
+# TypeScript cache
+.tsbuildinfo
