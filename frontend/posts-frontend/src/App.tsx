@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://express-apiserver.onrender.com";
 
 interface Post {
   id: number;
